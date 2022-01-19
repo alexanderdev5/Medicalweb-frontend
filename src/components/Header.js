@@ -68,17 +68,17 @@ class Header extends Component{
                         <ul className="navbar-nav">
                           <li className="nav-item">
                             <Link 
-                              className="nav-link " to="/services">
+                              className="nav-link " to="medicalweb/services">
                               SERVICIOS
                             </Link>                            
                           </li>
                           <li className="nav-item">
-                            <Link className="nav-link" to="/about">
+                            <Link className="nav-link" to="medicalweb/about">
                               ABOUT US
                             </Link>
                           </li>
                           <li className="nav-item">
-                            <Link  className="nav-link" to="/succesStory">
+                            <Link  className="nav-link" to="medicalweb/succesStory">
                               HISTORIAS DE EXITO
                             </Link>
                           </li>
@@ -100,7 +100,7 @@ class Header extends Component{
                               <li>
                                 <Link
                                   className="dropdown-item"
-                                  to='/specialists'>
+                                  to='medicalweb/specialists'>
                                   All Specialists
                                 </Link>
                               </li>
@@ -124,13 +124,13 @@ class Header extends Component{
                           </li>
                           <li className="nav-item">
                             <Link
-                              to="/blog"
+                              to="medicalweb/blog"
                               className="nav-link">
                               Blog
                             </Link>                            
                           </li>
                           <li className="nav-item">
-                            <Link className="nav-link" to="/contacts">
+                            <Link className="nav-link" to="medicalweb/contacts">
                               CONTACTOS
                             </Link>
                           </li>
