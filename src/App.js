@@ -24,9 +24,11 @@ function App() {
              <Route  path='/services' component={Services}  />
              <Route  path='/succesStory' component={SuccesStory}  />
              <Route  path='/gallery' component={Gallery}  />
-             <Route  path='/specialists' component={Specialists}  />             
+             <Route  path='/specialist' component={Specialists}  />             
              <Route  path='/blog' component={Blog}  />
              <Route  path='/contacts' component={Contacts}  />
+             
+             
 
          </Switch>
         <Footer />
