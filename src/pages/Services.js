@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Quicklinks from "../components/Quicklinks";
+
 
 
 
@@ -17,7 +19,7 @@ class Services extends Component {
               <div className="breadcrumbs-wrap">
                 <div className="container">
                   <div className="breadcrumbs">
-                    <Link to='/'>Home<Link/>
+                    <Link to='/home'>Home</Link>
                     <span>Services</span>
                   </div>
                 </div>
