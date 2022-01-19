@@ -16,7 +16,21 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div>
-      <h1>Holaaaaag</h1>
+      <Router>
+        <Header />
+         <Switch>
+             <Route exact path='/' component={Home}  />
+             <Route  path='/about' component={About}  />
+             <Route  path='/services' component={Services}  />
+             <Route  path='/succesStory' component={SuccesStory}  />
+             <Route  path='/gallery' component={Gallery}  />
+             <Route  path='/specialists' component={Specialists}  />             
+             <Route  path='/blog' component={Blog}  />
+             <Route  path='/contacts' component={Contacts}  />
+
+         </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
