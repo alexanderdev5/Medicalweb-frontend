@@ -18,7 +18,7 @@ class Services extends Component {
               <div className="breadcrumbs-wrap">
                 <div className="container">
                   <div className="breadcrumbs">
-                    <Link to='/'>Home</Link>
+                    <Link to='medicalweb/'>Home</Link>
                     <span>Services</span>
                   </div>
                 </div>
