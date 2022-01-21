@@ -100,7 +100,7 @@ class Header extends Component{
                               <li>
                                 <Link
                                   className="dropdown-item"
-                                  to='/specialists'>
+                                  to='/specialist'>
                                   All Specialists
                                 </Link>
                               </li>
