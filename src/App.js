@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Header />
          <Switch>
-             <Route exact path='/' component={Home}  />
+             <Route exact path='/medicalweb/' component={Home}  />
              <Route  path='/about' component={About}  />
              <Route  path='/services' component={Services}  />
              <Route  path='/succesStory' component={SuccesStory}  />
