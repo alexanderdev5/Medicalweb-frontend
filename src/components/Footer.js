@@ -181,7 +181,7 @@ class Footer extends Component{
                   </li>
                   <li>
                     <i className="icon-black-envelope" />
-                    <a href="mailto:info@dentco.net">info@dentco.net</a>
+                    <a href="mailto:info@dentco.net">informacion.surgeon@gmail.com</a>
                   </li>
                 </ul>
               </div>
@@ -191,16 +191,16 @@ class Footer extends Component{
             <div className="container">
               <div className="row text-center text-md-left">
                 <div className="col-sm">
-                  Copyright © 2020 <a href="X">Medlab</a>
+                  Copyright © 2022 <a href="X">MEDICAL WEBSITE</a>
                   <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                   <a href="X">Privacy Policy</a>
                 </div>
                 <div className="col-sm-auto ml-auto">
                   <span className="d-none d-sm-inline">
-                    For emergency cases&nbsp;&nbsp;&nbsp;
+                    Para casos de emergencias&nbsp;&nbsp;&nbsp;
                   </span>
                   <i className="icon-telephone" />
-                  &nbsp;&nbsp;<b>1-800-267-0000</b>
+                  &nbsp;&nbsp;<b>86-985-655</b>
                 </div>
               </div>
             </div>

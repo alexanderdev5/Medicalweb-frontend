@@ -54,9 +54,9 @@ class Header extends Component{
                   <span className="icon-menu" />
                 </button>
                 <div className="col-lg-auto col-lg-2 d-flex align-items-lg-center">
-                  <a href="#" className="header-logo">
+                  <Link  to='/medicalweb/' className="header-logo">
                     <img src="assets/images/logo.png"  className="img-fluid" alt=""/>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg ml-auto header-nav-wrap">
                   <div className="header-nav js-header-nav">
